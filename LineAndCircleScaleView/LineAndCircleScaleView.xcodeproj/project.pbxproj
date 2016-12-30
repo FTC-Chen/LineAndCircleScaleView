@@ -272,7 +272,6 @@
 				TargetAttributes = {
 					7BCBF9E81E1523FD000525DC = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2TSRWQ6BP5;
 						ProvisioningStyle = Automatic;
 					};
 					7BCBFA011E1523FD000525DC = {
@@ -497,11 +496,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2TSRWQ6BP5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LineAndCircleScaleView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zs.RDS1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.LineAndCircleScaleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -510,11 +509,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2TSRWQ6BP5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LineAndCircleScaleView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zs.RDS1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.LineAndCircleScaleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
