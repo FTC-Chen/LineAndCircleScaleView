@@ -2,7 +2,7 @@
 ####直线与圆圈比例显示,圆圈形式中分为2种动画效果.
 若需具体释义,可移步简书.http://www.jianshu.com/p/b752af66884d
 
-一:主要实现:
+####一:主要实现:
 
 (1)线形图-使用简单animateWithDuration改变frame即可.
 
@@ -10,7 +10,7 @@
 1.CABasicAnimation.
 2.NSTimer改变圆形path的endAngle
 
-二:实现效果
+####二:实现效果
 
 **(1)线形图-显示比例动画**
 
