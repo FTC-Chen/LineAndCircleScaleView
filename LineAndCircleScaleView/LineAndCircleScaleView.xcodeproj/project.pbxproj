@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BAA2FF61E15F675003F06FB /* LineScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2FF51E15F675003F06FB /* LineScaleViewController.m */; };
+		7BAA2FFC1E15F772003F06FB /* CircleScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2FFB1E15F772003F06FB /* CircleScaleViewController.m */; };
+		7BAA30001E15F8E7003F06FB /* CircleTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2FFF1E15F8E7003F06FB /* CircleTimerViewController.m */; };
+		7BAA30031E15F8F7003F06FB /* CircleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA30021E15F8F7003F06FB /* CircleTimer.m */; };
+		7BAA30051E1600DE003F06FB /* 线形比例.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA30041E1600DE003F06FB /* 线形比例.gif */; };
+		7BAA30071E1600E2003F06FB /* 圆圈比例-CABasic.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA30061E1600E2003F06FB /* 圆圈比例-CABasic.gif */; };
+		7BAA30091E1600E6003F06FB /* 圆圈比例-NSTimer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA30081E1600E6003F06FB /* 圆圈比例-NSTimer.gif */; };
 		7BCBF9EE1E1523FD000525DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBF9ED1E1523FD000525DC /* main.m */; };
 		7BCBF9F11E1523FD000525DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBF9F01E1523FD000525DC /* AppDelegate.m */; };
 		7BCBF9F41E1523FD000525DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBF9F31E1523FD000525DC /* ViewController.m */; };
@@ -17,7 +24,6 @@
 		7BCBFA121E1523FD000525DC /* LineAndCircleScaleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBFA111E1523FD000525DC /* LineAndCircleScaleViewUITests.m */; };
 		7BCBFA211E15247F000525DC /* LineScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBFA201E15247F000525DC /* LineScaleView.m */; };
 		7BCBFA241E152486000525DC /* CircleScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBFA231E152486000525DC /* CircleScaleView.m */; };
-		7BCBFA261E152A33000525DC /* 比例显示.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BCBFA251E152A33000525DC /* 比例显示.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BAA2FF41E15F675003F06FB /* LineScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineScaleViewController.h; sourceTree = "<group>"; };
+		7BAA2FF51E15F675003F06FB /* LineScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineScaleViewController.m; sourceTree = "<group>"; };
+		7BAA2FF81E15F701003F06FB /* Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
+		7BAA2FFA1E15F772003F06FB /* CircleScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScaleViewController.h; sourceTree = "<group>"; };
+		7BAA2FFB1E15F772003F06FB /* CircleScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleScaleViewController.m; sourceTree = "<group>"; };
+		7BAA2FFE1E15F8E7003F06FB /* CircleTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTimerViewController.h; sourceTree = "<group>"; };
+		7BAA2FFF1E15F8E7003F06FB /* CircleTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTimerViewController.m; sourceTree = "<group>"; };
+		7BAA30011E15F8F7003F06FB /* CircleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTimer.h; sourceTree = "<group>"; };
+		7BAA30021E15F8F7003F06FB /* CircleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTimer.m; sourceTree = "<group>"; };
+		7BAA30041E1600DE003F06FB /* 线形比例.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "线形比例.gif"; sourceTree = "<group>"; };
+		7BAA30061E1600E2003F06FB /* 圆圈比例-CABasic.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "圆圈比例-CABasic.gif"; sourceTree = "<group>"; };
+		7BAA30081E1600E6003F06FB /* 圆圈比例-NSTimer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "圆圈比例-NSTimer.gif"; sourceTree = "<group>"; };
 		7BCBF9E91E1523FD000525DC /* LineAndCircleScaleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineAndCircleScaleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCBF9ED1E1523FD000525DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BCBF9EF1E1523FD000525DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,7 +76,6 @@
 		7BCBFA201E15247F000525DC /* LineScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineScaleView.m; sourceTree = "<group>"; };
 		7BCBFA221E152486000525DC /* CircleScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScaleView.h; sourceTree = "<group>"; };
 		7BCBFA231E152486000525DC /* CircleScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleScaleView.m; sourceTree = "<group>"; };
-		7BCBFA251E152A33000525DC /* 比例显示.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "比例显示.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +103,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BAA2FF31E15F646003F06FB /* LineScale */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA2FF41E15F675003F06FB /* LineScaleViewController.h */,
+				7BAA2FF51E15F675003F06FB /* LineScaleViewController.m */,
+				7BCBFA1F1E15247F000525DC /* LineScaleView.h */,
+				7BCBFA201E15247F000525DC /* LineScaleView.m */,
+			);
+			name = LineScale;
+			sourceTree = "<group>";
+		};
+		7BAA2FF91E15F742003F06FB /* CircleScale-CABasic */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA2FFA1E15F772003F06FB /* CircleScaleViewController.h */,
+				7BAA2FFB1E15F772003F06FB /* CircleScaleViewController.m */,
+				7BCBFA221E152486000525DC /* CircleScaleView.h */,
+				7BCBFA231E152486000525DC /* CircleScaleView.m */,
+			);
+			name = "CircleScale-CABasic";
+			sourceTree = "<group>";
+		};
+		7BAA2FFD1E15F8B2003F06FB /* CircleScale-NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA2FFE1E15F8E7003F06FB /* CircleTimerViewController.h */,
+				7BAA2FFF1E15F8E7003F06FB /* CircleTimerViewController.m */,
+				7BAA30011E15F8F7003F06FB /* CircleTimer.h */,
+				7BAA30021E15F8F7003F06FB /* CircleTimer.m */,
+			);
+			name = "CircleScale-NSTimer";
+			sourceTree = "<group>";
+		};
 		7BCBF9E01E1523FC000525DC = {
 			isa = PBXGroup;
 			children = (
@@ -114,14 +164,15 @@
 				7BCBF9F21E1523FD000525DC /* ViewController.h */,
 				7BCBF9F31E1523FD000525DC /* ViewController.m */,
 				7BCBF9F51E1523FD000525DC /* Main.storyboard */,
-				7BCBFA1F1E15247F000525DC /* LineScaleView.h */,
-				7BCBFA201E15247F000525DC /* LineScaleView.m */,
-				7BCBFA221E152486000525DC /* CircleScaleView.h */,
-				7BCBFA231E152486000525DC /* CircleScaleView.m */,
+				7BAA2FF31E15F646003F06FB /* LineScale */,
+				7BAA2FF91E15F742003F06FB /* CircleScale-CABasic */,
+				7BAA2FFD1E15F8B2003F06FB /* CircleScale-NSTimer */,
 				7BCBF9F81E1523FD000525DC /* Assets.xcassets */,
 				7BCBF9FA1E1523FD000525DC /* LaunchScreen.storyboard */,
 				7BCBF9FD1E1523FD000525DC /* Info.plist */,
-				7BCBFA251E152A33000525DC /* 比例显示.gif */,
+				7BAA30041E1600DE003F06FB /* 线形比例.gif */,
+				7BAA30061E1600E2003F06FB /* 圆圈比例-CABasic.gif */,
+				7BAA30081E1600E6003F06FB /* 圆圈比例-NSTimer.gif */,
 				7BCBF9EC1E1523FD000525DC /* Supporting Files */,
 			);
 			path = LineAndCircleScaleView;
@@ -131,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				7BCBF9ED1E1523FD000525DC /* main.m */,
+				7BAA2FF81E15F701003F06FB /* Scale.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,6 +272,7 @@
 				TargetAttributes = {
 					7BCBF9E81E1523FD000525DC = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2TSRWQ6BP5;
 						ProvisioningStyle = Automatic;
 					};
 					7BCBFA011E1523FD000525DC = {
@@ -259,10 +312,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BAA30091E1600E6003F06FB /* 圆圈比例-NSTimer.gif in Resources */,
+				7BAA30051E1600DE003F06FB /* 线形比例.gif in Resources */,
 				7BCBF9FC1E1523FD000525DC /* LaunchScreen.storyboard in Resources */,
 				7BCBF9F91E1523FD000525DC /* Assets.xcassets in Resources */,
 				7BCBF9F71E1523FD000525DC /* Main.storyboard in Resources */,
-				7BCBFA261E152A33000525DC /* 比例显示.gif in Resources */,
+				7BAA30071E1600E2003F06FB /* 圆圈比例-CABasic.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BAA30031E15F8F7003F06FB /* CircleTimer.m in Sources */,
+				7BAA30001E15F8E7003F06FB /* CircleTimerViewController.m in Sources */,
 				7BCBFA241E152486000525DC /* CircleScaleView.m in Sources */,
 				7BCBF9F41E1523FD000525DC /* ViewController.m in Sources */,
 				7BCBFA211E15247F000525DC /* LineScaleView.m in Sources */,
 				7BCBF9F11E1523FD000525DC /* AppDelegate.m in Sources */,
 				7BCBF9EE1E1523FD000525DC /* main.m in Sources */,
+				7BAA2FFC1E15F772003F06FB /* CircleScaleViewController.m in Sources */,
+				7BAA2FF61E15F675003F06FB /* LineScaleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,11 +497,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2TSRWQ6BP5;
 				INFOPLIST_FILE = LineAndCircleScaleView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.LineAndCircleScaleView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zs.RDS1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -451,11 +510,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2TSRWQ6BP5;
 				INFOPLIST_FILE = LineAndCircleScaleView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.LineAndCircleScaleView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zs.RDS1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -7,9 +7,11 @@
 //
 
 #import "CircleScaleView.h"
+#import "Scale.h"
 
-#define PNmidGray [UIColor colorWithRed:140.0 / 255.0 green:140.0 / 255.0 blue:140.0 / 255.0 alpha:1.0f];
-#define PNFreshGreen    [UIColor colorWithRed:77.0 / 255.0 green:196.0 / 255.0 blue:122.0 / 255.0 alpha:1.0f]
+@interface CircleScaleView ()<CAAnimationDelegate>
+
+@end
 
 @implementation CircleScaleView
 
@@ -28,14 +30,8 @@
 
     //比例显示
     //1.显示比例动画  CABasicAnimation形式
-    //[self currentScaleAnimation];
+    [self currentScaleAnimation];
     
-    //2.显示比例动画  NSTimer形式
-    UIBezierPath *scalePath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bounds.size.width / 2,self.bounds.size.height / 2) radius:self.bounds.size.height / 2 - 9 / 2 startAngle:(CGFloat)-M_PI_2 endAngle:(CGFloat)(- M_PI_2 + self.animationTime * 2*M_PI) clockwise:YES];
-    UIColor *scaleColor = PNFreshGreen;
-    [scaleColor setStroke];
-    scalePath.lineWidth = 8;
-    [scalePath stroke];
 }
 
 //当前比例动画  CABasicAnimation形式
@@ -64,31 +60,4 @@
 
 }
 
-- (void)startAnimationTimer{
-    
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(NSTimerScaleAnimation) userInfo:nil repeats:YES];
-}
-
-//当前比例动画  NSTimer形式
-- (void)NSTimerScaleAnimation{
-    
-    self.animationTime = self.animationTime+0.003;
-    
-    NSLog(@"%f",self.animationTime);
-    
-    if (self.animationTime <= self.currentValue/self.maxValue) {
-        
-        [self setNeedsDisplay];
-    
-    }else{
-        
-        [self.timer invalidate];
-    }
-
-}
-
-- (void)dealloc{
-    
-    [self.timer invalidate];
-}
 @end
