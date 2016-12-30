@@ -52,6 +52,7 @@
         [self.timer invalidate];
     }
 }
+
 - (void)dealloc{
     
     [self.timer invalidate];
